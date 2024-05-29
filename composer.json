@@ -1,0 +1,27 @@
+{
+    "name": "tohidhabiby/redis-intended-json-search",
+    "type": "symfony-bundle",
+    "require-dev": {
+        "fzaninotto/faker": "^1.5",
+        "phpunit/phpunit": "10.4.x-dev",
+        "symfony/phpunit-bridge": "^6.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TohidHabiby\\RedisIntendedJsonSearch\\": "src/",
+            "TohidHabiby\\RedisIntendedJsonSearch\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammad Habibinodeh",
+            "email": "tohidhabiby@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "doctrine/collections": "^2.1",
+        "symfony/serializer-pack": "^1.3"
+    }
+}
